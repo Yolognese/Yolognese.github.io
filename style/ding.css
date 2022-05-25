@@ -2,7 +2,7 @@ body {
   background-color: powderblue;
 }
 #section1 {
-  background-image: "../img/Wallpaper.png";
+  background-image: url('../img/Wallpaper.png');
   
   height: 100%;
   width: 100%;
