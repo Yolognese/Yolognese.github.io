@@ -27,7 +27,9 @@ p {
 .class1 {
   border-top: 10px solid darkred;
 }
-
+#extra {
+  text-align: center;
+}
 /* Style the links inside the sidenav */
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
