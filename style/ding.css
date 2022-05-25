@@ -1,6 +1,9 @@
 body {
   background-color: powderblue;
 }
+#section1 {
+  background-color: #555;
+}
 h1 {
   color: blue;
   text-align: center;
