@@ -4,8 +4,8 @@ body {
 #section1 {
   background-image: url('../img/Wallpaper.png');
   
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 #centerfold {
   align-items: center ;
