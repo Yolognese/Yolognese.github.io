@@ -51,8 +51,8 @@ p {
   left: 0; /* On mouse-over, make the elements appear as they should */
 }
 
-/* The about link: 20px from the top with a green background */
-#about {
+/* The reference link: 20px from the top with a green background */
+#reference {
   top: 20px;
   background-color: #04AA6D;
 }
@@ -70,4 +70,7 @@ p {
 #contact {
   top: 200px;
   background-color: #555 /* Light Black */
+}
+.table1{
+  border: 5px solid #1e1401 ;
 }
