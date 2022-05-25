@@ -13,6 +13,6 @@ function boxGlow() {
   var box = document.getElementById("box");
   box.style.transition = "background 5s linear 1s";
 
-  box.style.backgroundColor = "white";
+  box.style.backgroundColor = "blue";
 
 }
