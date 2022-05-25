@@ -73,5 +73,26 @@ p {
   background-color: #555 /* Light Black */
 }
 .table1{
-  border: 5px solid #1e1401 ;
+  align-self: center;
+  border: 2px solid #1e140173 ;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
