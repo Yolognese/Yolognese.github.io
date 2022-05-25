@@ -11,12 +11,12 @@ h2 {
 
 }
 p {
-  color: red;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 50px;
 }
 #style1 {
   background-color: lightsalmon;
+  border: 2px black;
 }
 .class1 {
   border-top: 1cm;
