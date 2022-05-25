@@ -1,6 +1,8 @@
 body {
   background-color: rgb(81, 67, 80);
   margin: 0;
+  padding: 0;
+  border: 0
 }
 #section1 {
   background-image: url('../img/Wallpaper.JPG');
