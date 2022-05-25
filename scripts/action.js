@@ -7,10 +7,12 @@ function download(text, name, type) {
 
 document.getElementById("js_test").innerHTML = "JavaScript is here..!";
 
+
+
 function boxGlow() {
   var box = document.getElementById("box");
-
   box.style.transition = "background 5s linear 1s";
-  box.style.background = "white";
+
+  box.style.backgroundColor = "white";
 
 }
