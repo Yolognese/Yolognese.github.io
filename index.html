@@ -2,38 +2,34 @@
 <html>
     <head>
         <title>Yolognese</title>
-        <link rel="stylesheet" type="text/css" href="/style/ding.css">
-        <link rel="icon" type="image/x-icon" href="/img/abstrakter-gruener-aquarell-spritzerfleckbeschaffenheitshintergrundentwurf_1017-28788.jpg">
-        <script src="/scripts/action.js"></script>
+        <link rel="stylesheet" type="text/css" href="style/ding.css">
+        <link rel="icon" type="image/x-icon" href="img/abstrakter-gruener-aquarell-spritzerfleckbeschaffenheitshintergrundentwurf_1017-28788.jpg">
+        <script src="scripts/action.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="height=device-height, initial-scale=1.0">
     </head>
     <body onload="boxGlow()">
-        <section id="section1">
-
-            <h1 id="box">This is a Heading</h1>
-            <div id="centerfold">
-                <p id="extra"> there we go centered</p>
-            </div>
-        </section>
-
-        <hr>
-        <p>Click the following button to see the function in action</p>  
-        <input type = "button" onclick = "boxGlow()" value = "Display">
+        <table class="table1">
+            <tr>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>Further references</th>
+            </tr>
+            <tr>
+              <td>Tree Care</td>
+              <td>Selling conducts</td>
+              <td>Live Streaming</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+        </table>
         
-        <a href="" id="a">click here to download your file</a>
-        <button onclick="download('file text', 'myfilename.txt', 'text/plain')">Create file</button>
-
-        <!-- this is a comment -->
-        <div id="mySidenav" class="sidenav">
-            <a href="reference1.html" id="reference">References</a>
-            <a href="blog.html" id="blog">Blog</a>
-            <a href="#" id="projects">Projects</a>
-            <a href="#" id="contact">Contact</a>
+        <div id="box" onclick="javascript:location.href='http://www.uol.com.br/'">
+            <p ><del>Getting started</del></p>
         </div>
-        <p>My favorite color is <del>blue</del> red.</p>
-        
-        <button onclick="document.getElementById('myImage').src='/img/Vorderseite.png'">Do something</button>
-        <img id="myImage" src="/img/abstrakter-gruener-aquarell-spritzerfleckbeschaffenheitshintergrundentwurf_1017-28788.jpg" style="width:200px" >
-        <button onclick="document.getElementById('myImage').src='/img/abstrakter-gruener-aquarell-spritzerfleckbeschaffenheitshintergrundentwurf_1017-28788.jpg'">Go Back</button>
-
     </body>
 </html>
